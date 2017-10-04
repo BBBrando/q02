@@ -8,6 +8,15 @@ int main()
 {
   vector <vector <string> > wordGrid;
 
+wordGrid[0][0] = "words";
+wordGrid[0][1] = "words";
+wordGrid[0][2] = "words";
+wordGrid[1][0] = "words";
+wordGrid[1][1] = "words";
+wordGrid[1][2] = "words";
+
+cout<<wordGrid[0][0]<<endl;
+
   /*
      do not edit this space
 
@@ -23,15 +32,26 @@ int main()
   //Row _ Column _ is _
   //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
-  //with the value of that element
+  //with the value of that
 
-  
+
+
+  if(wordGrid.size() > 0 && wordGrid[0].size() > 0)
+    {
+        for(int a = 0; a < wordGrid.size() ;a++)
+
+        {
+            for(int b = 0; b < wordGrid[a].size() ;b++)
+
+            {
+              cout<<"Row "<<a<<" Column "<<b<<" is "<< wordGrid[a][b]<<endl;
+
+
+                }
+            }
+        }
 
 
 
  return 0;
 }
-
-
-
-
