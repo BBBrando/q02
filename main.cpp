@@ -8,14 +8,6 @@ int main()
 {
   vector <vector <string> > wordGrid;
 
-wordGrid[0][0] = "words";
-wordGrid[0][1] = "words";
-wordGrid[0][2] = "words";
-wordGrid[1][0] = "words";
-wordGrid[1][1] = "words";
-wordGrid[1][2] = "words";
-
-cout<<wordGrid[0][0]<<endl;
 
   /*
      do not edit this space
